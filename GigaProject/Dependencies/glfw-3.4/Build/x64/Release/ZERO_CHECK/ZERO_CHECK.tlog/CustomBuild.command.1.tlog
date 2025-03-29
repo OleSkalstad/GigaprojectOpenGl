@@ -1,0 +1,10 @@
+^C:\DEV\GIGABOKSOPENGL\GIGAPROJECT\DEPENDENCIES\GLFW-3.4\BUILD\CMAKEFILES\7C02970C015F494079BFA36B1AF34F07\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/GigaboksOpenGL/GigaProject/Dependencies/glfw-3.4 -BC:/Dev/GigaboksOpenGL/GigaProject/Dependencies/glfw-3.4/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Dev/GigaboksOpenGL/GigaProject/Dependencies/glfw-3.4/Build/GLFW.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

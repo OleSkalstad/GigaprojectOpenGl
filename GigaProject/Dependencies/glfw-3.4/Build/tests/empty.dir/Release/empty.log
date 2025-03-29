@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Dev/GigaboksOpenGL/GigaProject/Dependencies/glfw-3.4/tests/CMakeLists.txt
+  empty.c
+  tinycthread.c
+  Generating Code...
+  empty.vcxproj -> C:\Dev\GigaboksOpenGL\GigaProject\Dependencies\glfw-3.4\Build\tests\Release\empty.exe
